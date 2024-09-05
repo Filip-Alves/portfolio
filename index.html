@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filip Alves - Développeur Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Archivo+Black&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <nav id="menu" >
+        
+        <div class="container">
+            <h2 id="logo">FILIP</h2>
+            <div id="navigation">
+                <a href="#home-section"><span>Accueil</span></a>
+                <a href="#about-section"><span>About</span></a>
+                <a href="#resume-section"><span>Resume</span></a>
+                <a href="#skills-section"><span>Skills</span></a>
+                <a href="#project-section"><span>Project</span></a>
+                <a href="#contact-section"><span>Contact</span></a>
+            </div>
+            <a id="menu-burger" class="nav-burger" onclick="openMenu()">
+                <i id="responsive-btn" class="fa-solid fa-bars"></i>
+                <!-- <i class="fa-solid fa-xmark"></i> -->
+            </a>
+            <div id="burger" class="burger-menu">
+                <a href="#home-section"><span>Accueil</span></a>
+                <a href="#about-section"><span>About</span></a>
+                <a href="#resume-section"><span>Resume</span></a>
+                <a href="#skills-section"><span>Skills</span></a>
+                <a href="#project-section"><span>Project</span></a>
+                <a href="#contact-section"><span>Contact</span></a>
+                <!-- <a id="menu-burger" class="nav-burger" onclick="closeMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </a> -->
+            </div>
+        </div>
+    </nav>
+    <section id="home-section">
+        <div class="center">
+            <div>
+                <p class="hello">BONJOUR !</p>
+                <h1 class="title">Je suis <span class="second-color">Filip Alves</span></h1>
+                <h2 class="subtitle">Un <span class="second-color">développeur Web</span> en région parisienne</h2>
+                <div class="btns">
+                    <a href="" class="btn-secondary">ENGAGEZ MOI</a>
+                    <a href="" class="btn-primary">MON TRAVAIL</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-section">
+        <div class="">
+            <div class="about">
+                <h2 class="center">à propos de moi</h2>
+                <p class="grey center">Je suis un développeur expérimenté et polyvalent avec une passion pour la création d'applications web et mobiles innovantes.</p>
+                <div class="flex flex-center">
+                    <div class="photo">
+                        <img src="./images/photo.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <p>
+                            <span>Nom: </span>
+                            <span class="grey">Filip Alves</span>
+                        </p>
+                                
+                        <p>
+                            <span>Age: </span>
+                            <span class="grey">26</span>
+                        </p>
+                                
+                        <p>
+                            <span>Localisation: </span>
+                            <span class="grey">île-de-France</span>
+                        </p>
+                                
+                        <p>
+                            <span>Email: </span>
+                            <span class="grey">alvesfilip.work@gmail.com</span>
+                        </p>
+                    </div>
+                    
+                </div>
+                
+                        
+                
+                <p class="center">
+                    <a href="./CV-Filip-Alves-web.pdf" download="" class="btn-secondary">Télécharger CV</a>
+                </p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section id="skills-section">
+        <div class="width">
+            <h2 class="center">Mes compétences</h2>
+            <div class="resume">
+
+                <div>
+                    <p class="center grey">Voici un aperçu des outils et technologies que j'ai sélectionnés pour concrétiser mes projets, illustrant ainsi mon expertise et ma méthode dans le développement web.</p>
+                </div>
+
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <i class="fa-brands fa-js"></i>
+                        <div>
+                            Javascript
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <i class="fa-brands fa-php"></i>
+                        <div>
+                            PHP
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <i class="fa-brands fa-html5"></i>
+                        <div>
+                            HTML 5
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <i class="fa-brands fa-react"></i>
+                        <div>
+                            React js
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <i class="fa-brands fa-symfony"></i>
+                        <div>
+                            Symfony
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <div>
+                            CSS 3
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="resume-section">
+        <div class="width">
+            <h2 class="center">Expériences et Formations</h2>
+            <div class="resume">
+
+                <div>
+                    <p class="center grey">Je suis capable de travailler de manière autonome et en équipe, et je suis toujours à la recherche de nouveaux défis. Je suis rigoureux et je m'engage à fournir un travail de qualité.</p>
+                </div>
+                <div class="flex">
+                    <div class="col-2">
+                        <span class="colored">2021 - 2023 | 2 ans</span>
+                        <h3>Développeur FullStack - Alternance</h3>
+                        <h4>CPI Global</h4>
+                        <ul>
+                            <li>
+                                Création d’un site web permettant la gestion d’écran publicitaire permettant d'identifier chaque machine en
+                                ligne, de créer et gérer des groupes de players, ainsi que d'associer des clients pour une meilleure organisation. En
+                                utlisant également les application filebrowser (gérer dossier / fichiers) et syncthing (synchronisation des fichiers
+                                entre machines) <br>
+                                <span class="exp-skills">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>PHP</span>
+                                    <span>JS</span>
+                                    <span>Bootstrap</span>
+                                    <span>Mysql</span>
+                                    <span>Docker</span>
+                                    <span>AWS S3</span>
+                                </span>
+    
+                            </li>
+                            <li>
+                                Automatisation système de « player ». Sur un système linux, j’ai automatisé la configuration des machines pour
+                                qu’elles soient synchronisé entre elles en respectant les groupes auxquelles elles appartiennent en utilisant
+                                également l’application syncthing et mon site web<br>
+                                <span class="exp-skills">
+                                    <span>Bash/Shell</span>
+                                    <span>PHP</span>
+                                    <span>crontab</span>
+                                    <span>JS</span>
+                                </span>
+    
+                            </li>
+                            <li>
+                                Création d’une application mobile sur un PDA de gestion de stock qui permet de scanné des cartes rfid et des qr
+                                code pour lire ou créer de nouveau produit sur une interface simple, avec également des filtres de recherches et la
+                                possibilité de modifier les paramètre du PDA sur l’application<br>
+                                <span class="exp-skills">
+                                    <span>Java</span>
+                                    <span>XML</span>
+                                </span>
+    
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="col-1">
+                        <span class="colored">2021 - 2023</span>
+                        <h3>Master Bac+5 Analyste en Développement Informatique</h3>
+                        <h4>INSTA</h4>
+                        <p>
+                            Développement web et mobile, BDD, sécurité, Scrum
+                        </p>
+                        <p>
+                            Lors de ma formation, j'ai développé des compétences en création d'interfaces web et mobiles, en gestion et sécurisation des bases de données, ainsi qu'en intégration des principes de sécurité. J'ai également appris à travailler efficacement en équipe avec la méthodologie Scrum.
+                        </p>
+                        <p>
+                            <span class="exp-skills">
+                                <span>Javascript</span>
+                                <span>PHP</span>
+                                <span>React</span>
+                                <span>Symfony</span>
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>IA</span>
+                                <span>MongoDB</span>
+                                <span>PostgreSQL</span>
+                            </span>
+                        </p>
+                        
+                    </div>
+                    <div class="col-2">
+                        <span class="colored">2021 | 1 an</span>
+                        <h3>Développeur web Full Stack - Alternance</h3>
+                        <h4>Keepeal</h4>
+                        <ul>
+                            <li>
+                                Ajout de nouvelles fonctionnalités pour un logiciel SaaS, visant à améliorer l'expérience utilisateur et à répondre aux besoins spécifiques des clients.
+                                <span class="exp-skills">
+                                    <span>React</span>
+                                    <span>Nodejs</span>
+                                    <span>Firebase</span>
+                                    <span>JS</span>
+                                </span>
+                            </li>
+                            <li>
+                                Création d'un site vitrine moderne et attrayant pour l'entreprise, mettant en valeur ses services et produits.
+                                <span class="exp-skills">
+                                    <span>Wordpress</span>
+                                    <span>Umso</span>
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </span>
+                                
+                            </li>
+                            <li>
+                                Optimisation du site pour les moteurs de recherche (SEO) afin d'accroître la visibilité en ligne et d'attirer un public plus large.
+                            </li>
+                            <li>
+                                Élaboration d'une charte graphique cohérente et conception de maquettes pour garantir une identité visuelle forte et professionnelle.
+                                <span class="exp-skills">
+                                    <span>Figma</span>
+                                </span>
+                            </li>
+                            <li>
+                                Retouche photo professionnelle pour améliorer la qualité des visuels utilisés sur le site et dans les supports marketing.
+                                <span class="exp-skills">
+                                    <span>Photoshop</span>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-1">
+                        <span class="colored">2020 - 2021</span>
+                        <h3>Bachelor Bac+3 Analyste en Développement Informatique</h3>
+                        <h4>INSTA</h4>
+                        <p>
+                            Développement web et mobile, BDD, sécurité
+                        </p>
+                        <p>
+                            Lors de ma formation, j'ai développé des compétences en création d'interfaces web et mobiles, en gestion et sécurisation des bases de données, ainsi qu'en intégration des principes de sécurité.
+                        </p>
+                        <p>
+                            <span class="exp-skills">
+                                <span>Javascript</span>
+                                <span>PHP</span>
+                                <span>React</span>
+                                <span>Symfony</span>
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>MySQL</span>
+                                <span>MariaDB</span>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <span class="colored">2019 - 2020 | 1 an</span>
+                        <h3> Chef de projet Web / WebMaster - Alternance</h3>
+                        <h4>Happy Digital Agency</h4>
+                        <ul>
+                            <li>
+                                Création de sites web sur mesure en utilisant des CMS, adaptés aux besoins spécifiques des clients.
+                                <span class="exp-skills">
+                                    <span>Wordpress</span>
+                                    <span>Joomla</span>
+                                    <span>Prestashop</span>
+                                </span>
+                            </li>
+                            <li>
+                                Réalisation d'audits de sites et optimisation SEO pour améliorer la visibilité et les performances sur les moteurs de recherche.
+                            </li>
+                            <li>
+                                Ajout et configuration de modules personnalisés pour étendre les fonctionnalités des sites web.
+                            </li>
+                            <li>
+                                Conception de chartes graphiques pour garantir une identité visuelle cohérente et professionnelle.
+                            </li>
+                            <li>
+                                Rédaction et création de tutoriels détaillés pour faciliter l'utilisation des outils et des sites par les utilisateurs.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-1">
+                        <span class="colored">2019 - 2020</span>
+                        <h3>Bachelor Responsable Projet Web et Mobile</h3>
+                        <h4>ETNA</h4>
+                        <p>
+                            Développement, Administration système, Base de données, Méthode agile
+                        </p>
+                        <p>
+                            Lors de ma formation, j'ai développé des compétences en création d'applications, administration de serveurs, gestion de bases de données, et en gestion de projets avec les méthodes agiles, notamment Scrum.
+                        </p>
+                        <p>
+                            <span class="exp-skills">
+                                <span>Javascript</span>
+                                <span>PHP</span>
+                                <span>React</span>
+                                <span>Symfony</span>
+                                <span>IA</span>
+                                <span>BDD</span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>  
+            <p class="center">
+                <a href="./CV-Filip-Alves-web.pdf" download="" class="btn-secondary">Télécharger CV</a>
+            </p>
+        </div>
+    
+    </section>
+
+    
+
+    <section id="project-section">
+        <div class="width">
+            <h2 class="center">Mes projets</h2>
+            <div class="resume">
+
+                <div>
+                    <p class="center grey">Voici un aperçu de mes projets récents, reflétant ma passion pour le développement web et mon engagement à créer des expériences numériques innovantes et fonctionnelles.</p>
+                </div>
+
+                <div class="grid-project-container">
+                    <div class="grid-project item1">
+                        <div class="relative">
+                            <img src="./images/project1.jpg" alt="">
+                            <div class="absolute">
+                                <p>
+                                    Projet web à venir
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-project item2">
+                        <div class="relative">
+                            <img src="./images/project2.jpg" alt="">
+                            <div class="absolute">
+                                <p>
+                                    Projet web à venir
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-project item3">
+                        <div class="relative">
+                            <img src="./images/project3.jpg" alt="">
+                            <div class="absolute">
+                                <p>
+                                    Projet web à venir
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-project item4">
+                        <div class="relative">
+                            <img src="./images/project4.jpg" alt="">
+                            <div class="absolute">
+                                <p>
+                                    Projet web à venir
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-project item5">
+                        <div class="relative">
+                            <img src="./images/project5.jpg" alt="">
+                            <div class="absolute">
+                                <p>
+                                    Projet web à venir
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-project item6">
+                        <div class="relative">
+                            <img src="./images/project6.jpg" alt="">
+                            <div class="absolute">
+                                <p>
+                                    Projet web à venir
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="dispo">
+        <img src="./images/nature.jpg" alt="">
+        <div class="text">
+            <h2>Je suis <span class="second-color">disponible</span> pour un CDI <br>en île-de-France</h2>
+            <p>Je suis ouvert à de nouvelles opportunités professionnelles en Île-de-France. Si vous souhaitez en savoir plus sur mon parcours ou discuter d'une collaboration, n'hésitez pas à me contacter.</p>
+        </div>
+    </div>
+
+    <section id="contact-section">
+        <div class="width">
+            <h2 class="center">Contactez moi</h2>
+            <div class="container center contact">
+                <span>
+                    <div class="circle">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    île-de-France
+                </span>
+                <a href="https://www.linkedin.com/in/filip-alves/">
+                    <div class="circle circle-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    Linkedin
+                </a>
+                <a href="mailto:alvesfilip.work@gmail.com">
+                    <div class="circle circle-link">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    Email
+                </a>
+                <a href="#">
+                    <div class="circle">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    Site web
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
