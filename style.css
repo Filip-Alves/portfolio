@@ -437,6 +437,10 @@ footer {
     display: none;
 }
 
+#menu a {
+    text-transform: capitalize;
+}
+
 @media (max-width: 1110px) {
     .invisible {
     width: 0;
