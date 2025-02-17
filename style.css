@@ -31,8 +31,6 @@ h2 {
     flex-wrap: wrap;
 }
 
-
-
 nav {
     background-color: var(--bg-color);
     padding: 0.5rem 1rem;
@@ -319,7 +317,7 @@ i {
 
 
 .grid-project:hover .absolute{
-    background: rgba(var(--secondary-color), 0.4);
+    background: rgba(var(--secondary-color), 0.9);
     color: var(--text-color);
     visibility: visible;
     transition: 0.3s;
@@ -427,6 +425,12 @@ footer {
 
 .nav-burger .fa-solid{
     font-size: 30px;
+}
+
+.bxl-typescript {
+    font-size: 80px;
+    position: relative;
+    top: 8px;
 }
 
 #menu-burger {
